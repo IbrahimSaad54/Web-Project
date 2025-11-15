@@ -1,7 +1,7 @@
 # 🎓 Responsive Educational Website / Online Courses Website  
 
 A fully responsive educational website built using **HTML, CSS, and JavaScript**.  
-This project demonstrates how to create a modern and attractive learning platform for online courses inspired by the video tutorial:  
+This project demonstrates how to create a modern and attractive learning platform for online courses inspired by the video tutorial.
 
 ---
 
@@ -15,7 +15,6 @@ It includes essential sections such as:
 - Testimonials Page
 - Contact Page
 - Login Page
-The website uses **HTML** for structure, **CSS** for design and responsiveness and **JavaScript** for interactive elements like navigation toggles and smooth scrolling.  
 
 ---
 
@@ -37,7 +36,7 @@ The website uses **HTML** for structure, **CSS** for design and responsiveness a
 
 ## 💡 Future Improvements  
 - Add a **backend system** or **database** for real course management.  
-- Integrate **user authentication** (login/register).  
+- Integrate **user authentication** (register).  
 - Add **animations or transitions** for a smoother user experience.  
 
 ---
