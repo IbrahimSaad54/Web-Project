@@ -903,8 +903,83 @@ section.contact{
         padding: 25px;
     }
 }
-
 /*   === Style contact page ends ===   */
+
+/*   === Style login page starts ===   */
+body, html {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     font-family: 'Roboto', sans-serif;
+}
+
+section.login {
+     width: 100%;
+     min-height: 100vh;
+	background-color: var(--primary-medium-clr); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 600px;
+            background-color: var(--bg-clr-1); 
+            padding: 50px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: var(--dark-heading-clr);
+        }
+
+        .login-container .form-group {
+            margin-bottom: 20px;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--dark-heading-clr);
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline-color: var(--primary-clr);
+            transition: all 0.3s;
+        }
+
+        .login-container input:focus {
+            border-color: var(--primary-clr);
+            box-shadow: 0 0 5px rgba(32,130,69,0.3);
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 14px 20px;
+            font-size: 18px;
+            background-color: var(--primary-clr);
+            color: var(--light-heading-clr);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .login-container button:hover {
+            background-color: var(--light-heading-clr);
+            color: var(--primary-clr);
+            border: 1px solid var(--primary-clr);
+        }
+/*   === Style login page ends ===   */
 
 /*   === Media Query Starts ===   */
 @media(max-width: 968px){
