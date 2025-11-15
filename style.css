@@ -68,12 +68,13 @@ body{
 	width: 100%;
 	min-height: 100vh;
 }
-.website-container{
-	width: 100%;
-	max-width: 1400px;
-	min-height: 100vh;
-	margin: 0px auto;
+.website-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
 /*   === Home Section Styling Starts ===   */
 section.home{
 	position: relative;
